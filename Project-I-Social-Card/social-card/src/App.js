@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import HeaderContainer from './components/HeaderComponents/HeaderContainer';
-import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
+import './components/HeaderComponents/HeaderContainer';
+import './components/HeaderComponents/ImageThumbnail';
 
 const App = () => {
   return (
