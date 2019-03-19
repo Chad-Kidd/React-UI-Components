@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import './components/ButtonComponents/ActionButton';
+import './components/ButtonComponents/NumberButton';
+import './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
