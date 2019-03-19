@@ -1,18 +1,14 @@
 import React from 'react';
 import './App.css';
 import ActionButton from './components/ButtonComponents/ActionButton';
-import './components/ButtonComponents/NumberButton';
-import './components/DisplayComponents/CalculatorDisplay';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import NumberButton from './components/ButtonComponents/NumberButton';
 
 const App = () => {
   return (
-    <div>
-      {/* <h3>Welcome to React Calculator</h3> */}
+    <div class="calc-wrapper">
       <CalculatorDisplay />
-
-      {/* <ActionButton /> */}
+{/* <ActionButton /> */}
       <ActionButton text="CLEAR" buttonStyle= "white"/>
 
       <NumberButton text="/" buttonStyle= "red"/>
@@ -34,15 +30,10 @@ const App = () => {
         <NumberButton text="+" buttonStyle= "red"/> 
 
       {/* <ActionButton /> */}
-        <ActionButton text="0" buttonStyle= "white"/>
+      <ActionButton text="0" buttonStyle= "white"/>
 
       <NumberButton text="=" buttonStyle= "red"/>
-      {/* <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p> */}
+     
     </div>
   );
 };
