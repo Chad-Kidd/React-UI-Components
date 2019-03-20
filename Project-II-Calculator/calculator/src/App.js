@@ -9,30 +9,30 @@ const App = () => {
     <div class="calc-wrapper">
       <CalculatorDisplay />
 {/* <ActionButton /> */}
-      <ActionButton text="CLEAR" buttonStyle= "white"/>
+      <ActionButton text="CLEAR" buttonStyle= "action-button action-text"/>
 
-      <NumberButton text="/" buttonStyle= "red"/>
+      <NumberButton text="/" buttonStyle= "op-button"/>
 
       {/* <NumberButton /> */}
-        <NumberButton text="7" buttonStyle = "grey"/>
-        <NumberButton text="8" buttonStyle = "grey"/>
-        <NumberButton text="9" buttonStyle = "grey"/>
-        <NumberButton text="x" buttonStyle= "red"/> 
+        <NumberButton text="7" buttonStyle = "number-button"/>
+        <NumberButton text="8" buttonStyle = "number-button"/>
+        <NumberButton text="9" buttonStyle = "number-button"/>
+        <NumberButton text="x" buttonStyle= "op-button"/> 
 
-        <NumberButton text="4" buttonStyle = "grey"/>
-        <NumberButton text="5" buttonStyle = "grey"/>
-        <NumberButton text="6" buttonStyle = "grey"/>
-        <NumberButton text="-" buttonStyle= "red"/> 
+        <NumberButton text="4" buttonStyle = "number-button"/>
+        <NumberButton text="5" buttonStyle = "number-button"/>
+        <NumberButton text="6" buttonStyle = "number-button"/>
+        <NumberButton text="-" buttonStyle= "op-button"/> 
 
-        <NumberButton text="1" buttonStyle = "grey"/>
-        <NumberButton text="2" buttonStyle = "grey"/>
-        <NumberButton text="3" buttonStyle = "grey"/>
-        <NumberButton text="+" buttonStyle= "red"/> 
+        <NumberButton text="1" buttonStyle = "number-button"/>
+        <NumberButton text="2" buttonStyle = "number-button"/>
+        <NumberButton text="3" buttonStyle = "number-button"/>
+        <NumberButton text="+" buttonStyle= "op-button"/> 
 
       {/* <ActionButton /> */}
-      <ActionButton text="0" buttonStyle= "white"/>
+      <ActionButton text="0" buttonStyle= "action-button action-text"/>
 
-      <NumberButton text="=" buttonStyle= "red"/>
+      <NumberButton text="=" buttonStyle= "op-button"/>
      
     </div>
   );
