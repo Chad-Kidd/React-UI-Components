@@ -1,0 +1,9 @@
+.calc-wrapper {
+    min-height: 80vh;
+    width: 320px;
+    margin: 0 auto;
+    border: 2px solid black;
+    font-family: helvetica;
+    display: flex;
+    flex-wrap: wrap;
+  }

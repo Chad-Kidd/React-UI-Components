@@ -1,0 +1,33 @@
+.number-button {
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200;
+    width: 80px;
+    height: 80px;
+  }
+
+  .op-button {
+    /* text-align: center; */
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200;
+    background-color: rgb(197, 35, 67);
+    width: 80px;
+    height: 80px;
+  }
+
+  .action-button {
+    width: 240px;
+    border: 1px solid #e3e3e3;
+    height: 80px;
+
+  }
+
+  .action-text {
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200;
+    background-color: rgb(224, 218, 218);
+  }
